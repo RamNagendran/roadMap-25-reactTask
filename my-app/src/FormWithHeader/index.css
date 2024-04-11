@@ -1,0 +1,30 @@
+.todo-form {
+    border-bottom: 1px solid grey;
+}
+.todo-form .label {
+    font-weight: 600;
+    font-size: 14px;
+    width: 30%;
+}
+.todo-form .input-fields {
+    width: 70%;
+    background: none;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    height: 30px;
+    padding: 5px;
+    font-size: 12px;
+    color: grey;
+}
+.todo-form .add-btn {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: #16165c;
+    height: 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 14px;
+    width: 100%;
+}

@@ -1,0 +1,55 @@
+.cards-container {
+    height: 60vh;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.cards-container .cards-manual-styles {
+    padding: 8px;
+    height: 200px;
+    overflow: auto;
+    margin: 10px 10px 0px 0px;
+    border: 1px solid #afacac;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.cards-container .cards-manual-styles .title-label {
+    font-size: 14px;
+    font-weight: 800;
+    color: #afacac;
+}
+.cards-container .cards-manual-styles .title-content {
+    font-size: 14px;
+    font-weight: 800;
+    color: #000;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
+.cards-container .cards-manual-styles .actions-styles {
+    height: 25px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 12px;
+    color: #fff;
+    background-color: #16165c;
+    border-radius: 8px;
+}
+
+.modal-style .label {
+    font-weight: 600;
+    font-size: 14px;
+    width: 30%;
+}
+.modal-style .input-fields {
+    width: 70%;
+    background: none;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    height: 30px;
+    padding: 5px;
+    font-size: 12px;
+    color: grey;
+}
